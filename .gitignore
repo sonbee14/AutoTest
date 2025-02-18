@@ -1,0 +1,11 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+node_modules
+cypress/videos
+cypress/screenshots
+mochawesome-report
+cypress/reports
+cypress.env.json
+cypress.env.*.json
