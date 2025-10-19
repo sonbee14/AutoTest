@@ -1,9 +1,9 @@
 class AmazonHomepage {
-    get searchTxtBx(){
+    get searchTxtBx() {
         return cy.get('#twotabsearchtextbox')
     }
-    get searchBTN(){
+    get searchBTN() {
         return cy.get('#nav-search-submit-button')
     }
 }
-export default AmazonHomepage
+export default new AmazonHomepage()
