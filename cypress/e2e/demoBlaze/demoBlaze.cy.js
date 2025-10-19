@@ -20,7 +20,7 @@ describe('test', function () {
             // expect(data).deep.eq(proData)
         })
     })
-    it('test', () => {
+    it('test2', () => {
             let apiProductdata = apiProduct.response.body.Items
             cy.log('data 0 '+ JSON.stringify(apiProductdata))
             //.map(): chuyển dữ liệu thành 1 mảng mới
